@@ -14,8 +14,8 @@
     <audio id="audio">
         <source src="../sound/tink.wav" type="audio/wav">
     </audio>
-    <h1 class="display-4 text-center">KeyCode</h1>
-
+    <img src="../icon/speaker.png" alt="speaker by https://smashicons.com/" class="speaker" onclick="switchSpeaker()">
+    <h1 class="display-4 text-center name">KeyCode</h1>
 
     <p id="keycode" class="text-center display-3 main"></p>
 
@@ -23,6 +23,7 @@
         window.addEventListener("keypress", function(e) {
             keypressed(e);
         });
+
     </script>
 </body>
 </html>

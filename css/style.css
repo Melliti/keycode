@@ -8,3 +8,11 @@ html, body {
     margin: 0;
 }
 
+.name {
+}
+
+.speaker {
+    height: 5%;
+    float: left;
+    margin: 10px 0px 0px 10px;
+}
